@@ -1,8 +1,19 @@
+body {
+    font-family: system-ui, sans-serif;
+}
 table,tr,th,td {
     border: 1px black solid;
     padding: 3px;
-    text-align: center;
+    text-align:left;
+    vertical-align: top;
+    font-weight: bold;
 }
 th {
     font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
 }
