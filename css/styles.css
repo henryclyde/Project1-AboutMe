@@ -7,10 +7,17 @@ body {
     font-family: system-ui, sans-serif;
     font-size: 12pt;
     background-image: url("../dark.jpg");
-    color: white;
-    margin-left: 20%;
-    margin-right: 20%;
+    background-attachment: fixed;
+    background-size: cover;
 
+    color: white;
+    
+
+}
+
+.page {
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 
@@ -29,7 +36,7 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 60px;
     flex: auto;
 
@@ -37,7 +44,7 @@ body {
 
 .name-header {
     font-family: monospace;
-    font-size: 50pt;
+    font-size: 35pt;
     background: linear-gradient(turquoise, lightgreen);
     -webkit-background-clip: text;
             background-clip: text;
@@ -47,9 +54,12 @@ body {
     text-decoration:underline;
 
 }
+img {
+    width: 80%;
+}
 
 .header-intro {
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-decoration: underline;
 }
 
@@ -75,6 +85,7 @@ body {
 
 .activity-cell {
     text-align: center;
+
     padding: 1rem;
 }
 
@@ -85,14 +96,19 @@ body {
 
 .work {
     background-color: lightblue;
+    color: darkblue;
 }
 
 .study {
     background-color: beige;
+    color: darkblue;
+
 }
 
 .lunch {
     background-color: orange;
+    color: darkblue;
+
 }
 
 .gym {
@@ -107,6 +123,8 @@ body {
 
 .marketing-class {
     background-color: yellow;
+    color: darkblue;
+
 }
 
 .extra-schoolwork {
@@ -116,6 +134,8 @@ body {
 
 .relax {
     background-color: turquoise;
+    color: darkblue;
+
 }
 
 .book-link {
