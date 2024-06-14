@@ -1,15 +1,60 @@
-/* General styles */
+
 body {
     font-family: system-ui, sans-serif;
+    font-size: 12pt;
+    background-image: url("../dark.jpg");
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+
 }
 
-/* Styling for poem */
+
+.interests {
+    text-indent: 40px;
+    margin-bottom: 40px;
+}
+@media (max-width: 1200px) {
+    .header {
+        flex-direction: column;
+        align-items: space;
+    }
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    flex: auto;
+    
+}
+
+.name-header {
+    font-family: monospace;
+    font-size: 50pt;
+    background: linear-gradient(turquoise, lightgreen);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    text-transform:uppercase;
+    text-decoration:underline;
+
+}
+
+.header-intro {
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+
+
 .poem {
     font-style: italic;
     margin-left: 10%;
 }
 
-/* Styling for table headers */
 .time-header, .day-header {
     width: 10rem;
     text-align: center;
@@ -19,7 +64,6 @@ body {
     width: 3rem;
 }
 
-/* Styling for table cells */
 .time-cell {
     text-align: center;
 }
@@ -29,7 +73,6 @@ body {
     padding: 1rem;
 }
 
-/* Specific activity styles */
 .get-ready {
     background-color: green;
     color: white;
@@ -70,10 +113,9 @@ body {
     background-color: turquoise;
 }
 
-/* Styling for book links */
 .book-link {
     text-decoration: none;
-    color: blue;
+    color: turquoise;
 }
 
 .book-link:hover {
