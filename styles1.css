@@ -1,0 +1,81 @@
+/* General styles */
+body {
+    font-family: system-ui, sans-serif;
+}
+
+/* Styling for poem */
+.poem {
+    font-style: italic;
+    margin-left: 10%;
+}
+
+/* Styling for table headers */
+.time-header, .day-header {
+    width: 10rem;
+    text-align: center;
+}
+
+.time-header {
+    width: 3rem;
+}
+
+/* Styling for table cells */
+.time-cell {
+    text-align: center;
+}
+
+.activity-cell {
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Specific activity styles */
+.get-ready {
+    background-color: green;
+    color: white;
+}
+
+.work {
+    background-color: lightblue;
+}
+
+.study {
+    background-color: beige;
+}
+
+.lunch {
+    background-color: orange;
+}
+
+.gym {
+    background-color: rgb(0, 86, 192);
+    color: white;
+}
+
+.cs-class {
+    background-color: gray;
+    color: white;
+}
+
+.marketing-class {
+    background-color: yellow;
+}
+
+.extra-schoolwork {
+    background-color: midnightblue;
+    color: white;
+}
+
+.relax {
+    background-color: turquoise;
+}
+
+/* Styling for book links */
+.book-link {
+    text-decoration: none;
+    color: blue;
+}
+
+.book-link:hover {
+    text-decoration: underline;
+}
